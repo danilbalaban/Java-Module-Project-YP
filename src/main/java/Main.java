@@ -70,7 +70,7 @@ public class Main {
                 if (speed > 0 && speed <= 250) {
                     return new Car(name, speed);
                 } else {
-                    System.out.println("Неправильная скорость");
+                    System.out.println("Неправильная скорость автомобиля");
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Пожалуйста, введите корректное число для скорости.");
